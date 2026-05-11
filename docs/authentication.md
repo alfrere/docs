@@ -13,7 +13,7 @@ The HTTPS is the universally accepted backend and supports the most authenticati
 
 ### Username and Password
 
-!!! info "Supported Services: PVE, PMG, PBS"
+!!! info "Supported Services: PVE, PMG, PBS, PDM"
 
 Password authentication is the default authentication method and what is used by the web UI. To use this authentication method, the following data is needed:
 
@@ -45,7 +45,7 @@ Renewal also does not require OTP codes, so once initially authenticated with an
 
 ### API Token
 
-!!! info "Supported Services: PVE, PBS"
+!!! info "Supported Services: PVE, PBS, PDM"
 
 The API Token allows stateless interaction with the Proxmox service as well as independent permissions and more flexibility in credential lifecycle management. Abused/leaked API Tokens can be disabled independent of the account with which they are associated and multiple API Tokens can be created for a user, allowing each use its own API Token with only its needed permissions which can be independently managed.
 

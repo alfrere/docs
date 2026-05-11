@@ -12,6 +12,7 @@ Below are the Proxmox services supported by this library.[^1]
 * PVE ([API Spec](https://pve.proxmox.com/pve-docs/api-viewer/index.html))
 * PMG ([API Spec](https://pmg.proxmox.com/pmg-docs/api-viewer/index.html))
 * PBS ([API Spec](https://pbs.proxmox.com/docs/api-viewer/index.html))
+* PDM ([API Spec](https://pdm.proxmox.com/docs/api-viewer/index.html))
 
 ## Supported Backends (Connection Methods) {#supported-backends}
 
